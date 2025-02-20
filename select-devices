@@ -19,7 +19,7 @@ select_kernel() {
             echo "5.10.160-rk35v-dbai"
             ;;
         s905*)
-            echo "6.1.66-DBAI"
+            echo "5.15.178"
             ;;    
         *)
             echo "Kernel not found for device: $device" >&2
