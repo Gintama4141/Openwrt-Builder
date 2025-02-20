@@ -82,7 +82,7 @@ jobs:
               KERNEL="5.10.160-rk35v-dbai"
               ;;
             s905*)
-              KERNEL="6.1.66-DBAI"
+              KERNEL="5.15.178"
               ;;
             *)
               echo "Error: Kernel not found for device: ${{ inputs.devices }}"
